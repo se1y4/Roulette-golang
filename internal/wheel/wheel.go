@@ -32,5 +32,5 @@ func (w Wheel) Spin() float64 {
 type Slot struct {
 	Name   string
 	Image  string
-	Chance int8
+	Chance float32
 }
